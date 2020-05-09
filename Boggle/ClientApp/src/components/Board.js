@@ -99,6 +99,7 @@ export class Board extends Component {
                 })
                     .then(response => {
                         var responseCode = response.status;
+                        debugger;
                         if (responseCode === 200) {
                             wordArray.push({ word: this.state.searchedWord, point: point });
                             this.setState({ selectedWordArray: wordArray, searchedWord: '', });
@@ -129,6 +130,7 @@ export class Board extends Component {
         return -1;
     }
 
+    //validate pattern of the alphabet as vertical, horizontal and diagonal
     isInValidPattern() {
         let chunkArray = this.getChunkArray();
         var word = this.state.searchedWord;
