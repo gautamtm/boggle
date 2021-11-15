@@ -8,6 +8,3 @@
 ----Link: https://dictionaryapi.dev/
 ---- api used: https://api.dictionaryapi.dev/api/v1/entries/en//
 
-#database
---- no need to setup db connection as all the scenario are handle within client side.
-----As there was no requirement to save the data. I have not saved data in db.
