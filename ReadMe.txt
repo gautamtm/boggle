@@ -8,3 +8,5 @@
 ----Link: https://dictionaryapi.dev/
 ---- api used: https://api.dictionaryapi.dev/api/v1/entries/en//
 
+Note: If anyone want to update game, please do it with best practices
+
